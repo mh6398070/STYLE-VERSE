@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Browser Tab Name -->
+
+    <title>Footwear | Style Verse</title>
+
+    <link rel="stylesheet" href="footwear.css">
+ <!-- Style Verse Logo -->
+     <link rel="icon" type="image/png" href="https://tse1.mm.bing.net/th/id/OIP.KCcVaZgu1EoiuV8SC4HXlAHaHa?r=0&pid=Api&h=220&P=0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo-area">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.KCcVaZgu1EoiuV8SC4HXlAHaHa?r=0&pid=Api&h=220&P=0" alt="">
+        <span>STYLE <b>VERSE</b></span>
+    </div>
+
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="men.html">Men</a>
+        <a href="women.html">Women</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="footwear.html" class="active">Footwear</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-icons">
+        <span id="searchBtn">⌕</span>
+        <span id="cartBtn">🛍</span>
+        <span id="menuBtn" class="menu-btn">☰</span>
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="footwear-hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">STYLE VERSE FOOTWEAR</p>
+
+        <h1>
+            Step Into<br>
+            <span>Your Style</span>
+        </h1>
+
+        <p>
+            Discover premium sneakers, formal shoes, boots
+            and elegant footwear designed for every occasion.
+        </p>
+
+        <a href="#collection" class="gold-btn">
+            Explore Footwear
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro">
+
+    <p class="section-label">WALK WITH CONFIDENCE</p>
+
+    <h2>Premium <span>Footwear</span></h2>
+
+    <p>
+        From everyday sneakers to sophisticated formal shoes,
+        discover footwear that combines comfort, quality and
+        modern fashion.
+    </p>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories">
+
+    <div class="category-card">
+
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=85">
+
+        <div class="category-content">
+            <p>EVERYDAY STYLE</p>
+            <h3>Sneakers</h3>
+            <a href="#collection">Explore →</a>
+        </div>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <img src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=1000&q=85">
+
+        <div class="category-content">
+            <p>CLASSIC LOOK</p>
+            <h3>Formal Shoes</h3>
+            <a href="#collection">Explore →</a>
+        </div>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=1000&q=85">
+
+        <div class="category-content">
+            <p>URBAN FASHION</p>
+            <h3>Boots</h3>
+            <a href="#collection">Explore →</a>
+        </div>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=1000&q=85">
+
+        <div class="category-content">
+            <p>MODERN COMFORT</p>
+            <h3>Casual Shoes</h3>
+            <a href="#collection">Explore →</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= COLLECTION ================= -->
+
+<section class="collection" id="collection">
+
+    <div class="collection-header">
+
+        <div>
+            <p class="section-label">SHOP FOOTWEAR</p>
+
+            <h2>Featured <span>Shoes</span></h2>
+        </div>
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="sneakers">
+                Sneakers
+            </button>
+
+            <button class="filter" data-filter="formal">
+                Formal
+            </button>
+
+            <button class="filter" data-filter="boots">
+                Boots
+            </button>
+
+            <button class="filter" data-filter="casual">
+                Casual
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="products">
+
+
+        <!-- PRODUCT 1 -->
+
+        <div class="product-card" data-category="sneakers">
+
+            <div class="product-image">
+
+                <span class="tag">NEW</span>
+
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • SNEAKERS</p>
+
+                <h3>Classic Red Sneakers</h3>
+
+                <span>$89.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+
+        <div class="product-card" data-category="formal">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • FORMAL</p>
+
+                <h3>Classic Leather Oxford</h3>
+
+                <span>$129.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+
+        <div class="product-card" data-category="boots">
+
+            <div class="product-image">
+
+                <span class="tag">PREMIUM</span>
+
+                <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • BOOTS</p>
+
+                <h3>Urban Leather Boots</h3>
+
+                <span>$149.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+
+        <div class="product-card" data-category="casual">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • CASUAL</p>
+
+                <h3>Modern White Sneakers</h3>
+
+                <span>$95.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 5 -->
+
+        <div class="product-card" data-category="sneakers">
+
+            <div class="product-image">
+
+                <span class="tag">TRENDING</span>
+
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • SNEAKERS</p>
+
+                <h3>Premium Street Sneakers</h3>
+
+                <span>$110.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 6 -->
+
+        <div class="product-card" data-category="formal">
+
+            <div class="product-image">
+
+                <span class="tag">LIMITED</span>
+
+                <img src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • FORMAL</p>
+
+                <h3>Midnight Black Derby</h3>
+
+                <span>$139.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 7 -->
+
+        <div class="product-card" data-category="boots">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • BOOTS</p>
+
+                <h3>Classic Chelsea Boots</h3>
+
+                <span>$155.00</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 8 -->
+
+        <div class="product-card" data-category="casual">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=85">
+
+                <button class="heart">♡</button>
+
+                <button class="quick-view">
+                    Quick View
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FOOTWEAR • CASUAL</p>
+
+                <h3>Premium Canvas Shoes</h3>
+
+                <span>$79.00</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BANNER ================= -->
+
+<section class="shoe-banner">
+
+    <div class="banner-content">
+
+        <p>STYLE VERSE SIGNATURE</p>
+
+        <h2>
+            Every Step<br>
+            <span>Tells A Story.</span>
+        </h2>
+
+        <a href="#collection" class="gold-btn">
+            Shop The Collection
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+    <div class="section-heading">
+
+        <p class="section-label">STYLE VERSE</p>
+
+        <h2>Made To <span>Move</span></h2>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+
+            <div class="feature-icon">✦</div>
+
+            <h3>Premium Quality</h3>
+
+            <p>
+                Quality materials and careful finishing
+                for a premium footwear experience.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">◇</div>
+
+            <h3>Modern Designs</h3>
+
+            <p>
+                Contemporary styles created for
+                modern fashion and everyday life.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">◈</div>
+
+            <h3>Comfort First</h3>
+
+            <p>
+                Stylish footwear designed to keep
+                you comfortable throughout the day.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">♡</div>
+
+            <h3>Signature Style</h3>
+
+            <p>
+                Find the perfect pair to complete
+                your personal fashion statement.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <p>JOIN STYLE VERSE</p>
+
+    <h2>
+        Step Into The <span>Future</span>
+    </h2>
+
+    <p>
+        Subscribe for new footwear arrivals,
+        exclusive offers and fashion updates.
+    </p>
+
+    <form id="newsletterForm">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        STYLE <span>VERSE</span>
+    </div>
+
+    <p>
+        Premium fashion and footwear for your signature style.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="index.html">Home</a>
+        <a href="men.html">Men</a>
+        <a href="women.html">Women</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="footwear.html">Footwear</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+    <div class="socials">
+               <a href="https://www.instagram.com/" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   class="instagram-logo">
+    <i class="fab fa-instagram"></i>
+    <span>Instagram</span>
+</a> <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+            
+            <a href="https://www.facebook.com/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="facebook-logo">
+    <i class="fab fa-facebook-f"></i>
+    <span>Facebook</span>
+</a>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+            
+
+<a href="https://www.tiktok.com/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="tiktok-logo">
+    <i class="fab fa-tiktok"></i>
+    <span>TikTok</span>
+</a>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Style Verse. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="footwear.js"></script>
+
+</body>
+</html>

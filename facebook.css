@@ -1,0 +1,25 @@
+.facebook-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.facebook-logo i {
+    font-size: 21px;
+}
+
+.facebook-logo:hover {
+    background: #d4af37;
+    color: #080808;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+}
